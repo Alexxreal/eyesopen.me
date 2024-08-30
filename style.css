@@ -30,17 +30,29 @@ h1{
     display: block;
     text-align: center;
 }
+
 .navbar a:hover{
-    background-color: hsl(0, 0%, 10%);
+    background-color: hsl(0, 0%, 100%);
+    color: black;
 }
+
+.navbar a:active{
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    margin-top: 4%;
+    overflow: hidden;
+}
+
 .navbar li{
     padding: 2%;
 }
 
 #navLeft li{
     float: left;
+    padding-left: 8%;
 }
 
 #navRight li{
     float: right;
+    padding-right: 8%;
 }
