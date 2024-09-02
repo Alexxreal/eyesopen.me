@@ -3,6 +3,25 @@ body{
     background-color: black;
     color: white;
 }
+
+@font-face {
+    font-family: 'ibm2x';
+    src: url('files/font/mx437_ibm_bios-2x-webfont.woff2') format('woff2'),
+         url('files/font/mx437_ibm_bios-2x-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ibm';
+    src: url('files/font/mx437_ibm_bios-webfont.woff2') format('woff2'),
+         url('files/font/mx437_ibm_bios-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 main{
     margin-left: 20px;
     margin-right: 20px;
@@ -44,15 +63,36 @@ h1{
 }
 
 .navbar li{
-    padding: 2%;
+    padding: 5%;
 }
 
 #navLeft li{
     float: left;
-    padding-left: 8%;
+    padding-left: 13%;
 }
 
 #navRight li{
     float: right;
-    padding-right: 8%;
+    padding-right: 13%;
 }
+
+#eye {
+    position: absolute;
+    top:17.5%;               
+    left: 50%;              
+    transform: translate(-52%, -50%); 
+    display: flex;          
+    justify-content: center; 
+    align-items: center;    
+}
+
+#eyeTrans {
+    position: absolute;
+    pointer-events: none;  
+}
+
+#eyeball {
+    position: absolute;
+    pointer-events: none;  
+}
+
