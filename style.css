@@ -22,12 +22,37 @@ body{
 
 }
 
-main{
-    margin-left: 20px;
-    margin-right: 20px;
+@font-face {
+    font-family: 'bigBlue';
+    src: url('files/font/bigBlue/BigBlue_TerminalPlus.TTF');
 }
+
+@font-face {
+    font-family: 'REXpaint';
+    src: url('files/font/REXPaint/REXPaint.ttf');
+}
+
+main{
+    font-family: "REXpaint";
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p {
+    margin-top: 150px;
+}
+
+h3 {
+    font-family: "REXpaint";
+    margin-top: 125px;
+    font-size: 3rem;
+}
+
 h1{
     text-align: center;
+
+/* navbar */
+
 }
 .navbar ul{
     font-family: "Handjet", sans-serif;
@@ -75,6 +100,8 @@ h1{
     float: right;
     padding-right: 13%;
 }
+
+/* eye */
 
 #eye {
     position: absolute;
