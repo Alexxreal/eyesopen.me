@@ -90,7 +90,7 @@ h1{
 .navbar a:active{
     background-color: hsl(0, 0%, 100%);
     color: rgb(0, 0, 0);
-    margin-top: 4%;
+    translate: 0 10px;
     overflow: hidden;
 }
 
@@ -114,7 +114,6 @@ h1{
     position: absolute;
     top:17.5%;               
     left: 50%;              
-    transform: translate(-52%, -50%); 
     display: flex;          
     justify-content: center; 
     align-items: center;    
@@ -122,11 +121,11 @@ h1{
 
 #eyeTrans {
     position: absolute;
-    pointer-events: none;  
+    top: auto;
+
 }
 
 #eyeball {
     position: absolute;
-    pointer-events: none;  
 }
 
