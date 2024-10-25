@@ -21,7 +21,7 @@ document.addEventListener('mousemove', function(e){
   var x = e.clientX;
   var y = e.clientY;
   /* document.getElementById("pointer").style.transform = "translate("+x+"px, "+y+"px)"; */
-  /* fix this shit */
+  /* fix this shit a */
   mousePos = [x, y]
   
   for (let i = 0; i < eyeballGridPos.length; i++) {
